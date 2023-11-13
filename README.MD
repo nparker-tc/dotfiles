@@ -10,6 +10,7 @@ Inspired by https://github.com/alecho/dot-files/
 [brew/apt] install ...
 zsh
 stow
+https://github.com/dandavison/delta (git-delta)
 ...
 ```
 
