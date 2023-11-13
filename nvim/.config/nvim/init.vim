@@ -36,6 +36,9 @@ Plug 'hrsh7th/nvim-cmp' " TODO: Setup
 " File Explorer
 Plug 'nvim-tree/nvim-tree.lua'
 
+" Commenting
+Plug 'numToStr/Comment.nvim'
+
 call plug#end()
 
 
@@ -181,5 +184,7 @@ vim.api.nvim_create_autocmd('LspAttach', {
     end, opts)
   end,
 })
+
+require('Comment').setup()
 
 EOF
