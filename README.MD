@@ -21,3 +21,19 @@ cd ~/.dotfiles
 ls -d */ | xargs stow
 ```
 
+### Step 3. Install oh-my-zsh
+
+```bash
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
+### iTerm2 Color Scheme
+
+https://github.com/mbadolato/iTerm2-Color-Schemes#dracula-1
+```
+gh repo clone mbadolato/iTerm2-Color-Schemes ~/Developer/tools/
+cd ~/Developer/tools/iTerm2-Color-Schemes
+tools/import-scheme.sh 'Dracula+'
+
+
+
