@@ -17,7 +17,7 @@ https://github.com/dandavison/delta (git-delta)
 ### Step 2. Pull the repository, and then create the symbolic links using GNU stow.
 
 ```bash
-git clone git@github.com:nparker-tc/dotfiles ~/.dotfiles
+gh repo clone nparker-tc/dotfiles ~/.dotfiles
 cd ~/.dotfiles
 ls -d */ | xargs stow
 ```
