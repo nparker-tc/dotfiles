@@ -39,3 +39,6 @@ tools/import-scheme.sh 'Dracula+'
 ### Zsh Plugins
 1. zsh-autocomplete https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh
 
+### Other tools
+delta
+git checkout-interactive https://github.com/kaunteya/git-checkout-interactive/
