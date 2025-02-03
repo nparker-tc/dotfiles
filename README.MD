@@ -35,6 +35,7 @@ https://github.com/mbadolato/iTerm2-Color-Schemes#dracula-1
 gh repo clone mbadolato/iTerm2-Color-Schemes ~/Developer/tools/
 cd ~/Developer/tools/iTerm2-Color-Schemes
 tools/import-scheme.sh 'Dracula+'
+```
 
 ### Zsh Plugins
 1. zsh-autocomplete https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh
