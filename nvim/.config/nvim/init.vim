@@ -39,6 +39,9 @@ Plug 'nvim-tree/nvim-tree.lua'
 " Commenting
 Plug 'numToStr/Comment.nvim'
 
+" Git Conclict Resolver
+Plug 'akinsho/git-conflict.nvim'
+
 call plug#end()
 
 
@@ -86,7 +89,7 @@ let mapleader="\<SPACE>"
   nnoremap <C-y> :let @+ = expand("%")<CR>
 
 " File Explorer Toggle
-nnoremap <C-S-t> :NvimTreeToggle<CR>
+nnoremap <A-S-t> :NvimTreeToggle<CR>
 
 " Lua Config
 lua << EOF
@@ -186,5 +189,9 @@ vim.api.nvim_create_autocmd('LspAttach', {
 })
 
 require('Comment').setup()
+
+-- Setup git conflict plugin
+require('git-conflict').setup()
+
 
 EOF
