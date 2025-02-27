@@ -2,8 +2,8 @@
 	repo = /Users/nathan/Developer/zsh-repos/znap
 	repo = /Users/nathan/Developer/zsh-repos/marlonrichert/zsh-autocomplete
 [user]
-	name = Nathan Parker
-	email = nparker@thoroughcare.net
+	name = 0x4rch
+	email = njpthepirate@yahoo.com
 
 [alias]
     fix = "!f() { ${EDITOR} `git diff --name-only --diff-filter=U`; }; f"
@@ -24,3 +24,6 @@
 
 [diff]
     colorMoved = default
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential

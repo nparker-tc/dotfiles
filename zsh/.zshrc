@@ -135,4 +135,6 @@ export VISUAL=nvim
 export EDITOR="$VISUAL"
 
 # asdf Enable
-. /opt/homebrew/opt/asdf/libexec/asdf.sh
+. "$HOME/.asdf/asdf.sh"
+# eval "$(~/.rbenv/bin/rbenv init - zsh)"
+export PATH="$PATH:/opt/nvim-linux64/bin"

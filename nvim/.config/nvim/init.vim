@@ -9,9 +9,9 @@ Plug 'Mofiqul/vscode.nvim'
 " Ruby
 Plug 'vim-ruby/vim-ruby'
 " Codium (AI)
-"Plug 'Exafunction/codeium.vim'
+Plug 'Exafunction/codeium.vim'
 " Copilot
-Plug 'github/copilot.vim'
+"Plug 'github/copilot.vim'
 Plug 'tpope/vim-fugitive'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'HiPhish/nvim-ts-rainbow2', {'do': ':TSUpdate'}
