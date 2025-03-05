@@ -93,6 +93,11 @@ nnoremap <A-S-t> :NvimTreeToggle<CR>
 
 " Lua Config
 lua << EOF
+
+
+-- Set sql erb hilighting
+vim.cmd("autocmd BufRead,BufNewFile *.sql.erb set filetype=sql")
+
 -- disable netrw at the very start of your init.lua
 vim.g.loaded_netrw = 1
 vim.g.loaded_netrwPlugin = 1
