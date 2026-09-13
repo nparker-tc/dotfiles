@@ -2,8 +2,8 @@
 	repo = /Users/nathan/Developer/zsh-repos/znap
 	repo = /Users/nathan/Developer/zsh-repos/marlonrichert/zsh-autocomplete
 [user]
-	name = Nathan Parker
-	email = nparker@thoroughcare.net
+	name = 0x4rch
+	# email lives in ~/.gitconfig.local, which is not tracked here
 
 [alias]
     fix = "!f() { ${EDITOR} `git diff --name-only --diff-filter=U`; }; f"
@@ -24,3 +24,7 @@
 
 [diff]
     colorMoved = default
+
+# Machine-local overrides (identity, work paths). Missing file is ignored.
+[include]
+	path = ~/.gitconfig.local
